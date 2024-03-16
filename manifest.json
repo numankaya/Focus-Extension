@@ -1,0 +1,18 @@
+{
+    "name": "Focus",
+    "version": "2.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "index.html"
+    },
+    "content_scripts": [
+      {
+        "js": [
+          "content.js"
+        ],
+        "matches": ["https://*.youtube.com/*"]
+      }
+    ],
+    "permissions": ["tabs"]
+  }
+  
